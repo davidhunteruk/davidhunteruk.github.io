@@ -1,15 +1,58 @@
 html, body {
     height: 100%;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    text-align: center;
 }
-/*.center {margin-left:auto; margin-right:auto; display:block;}*/
-.center {margin:auto; height: 85%; display:block;}
 
-#logo {
+.center {margin:auto; display:block;}
+
+.content {
+    margin-top: 20%;
     width: 440px;
 }
 
+.links {
+    margin-top: 44px;
+    color: #8FA4B5;
+}
+
+.links a {
+    padding: 10px 48px 10px 48px;
+    color: #1F4A6B;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.links a:first-child {
+    padding-left: 0px;
+}
+
+.links a:last-child {
+    padding-right: 0px;
+}
+
 @media only screen and (max-width : 600px) {
-    #logo {
+    .content {
         width: 70%;
+    }
+
+    .links {
+        margin-top: 24px;
+    }
+
+    .links a {
+        padding: 10px 10px 10px 10px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width : 370px) {
+    .links a {
+        padding: 10px 5px 10px 5px;
+        font-size: 13px;
     }
 }
