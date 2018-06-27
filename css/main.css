@@ -21,6 +21,8 @@ html, body {
     color: #1F4A6B;
     text-decoration: none;
     font-size: 28px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .links a:hover {
